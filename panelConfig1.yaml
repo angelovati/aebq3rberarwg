@@ -21,4 +21,14 @@ cells:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
   remitos_sap:
     dataRef: "sap"
-    
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "orange", level: 500}
+        - {color: "red", level: 1000}
+    link: *grafana-home
