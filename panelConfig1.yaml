@@ -19,7 +19,7 @@ cells:
   docs:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
-  sap:
+  remitos_sap:
     dataRef: "sap"
     label:
       separator: "cr"
