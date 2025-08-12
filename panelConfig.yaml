@@ -3,10 +3,10 @@
 #------------------------------------------------------------------------------
 # YAML Aliases to simplify maintenance
 
-anchorLinks:
-  - link: &grafana-home
-      url: "https://grafana.com/"
-      params: "time"
+#anchorLinks:
+#  - link: &grafana-home
+#      url: "https://grafana.com/"
+#      params: "time"
 
 #------------------------------------------------------------------------------
 # Panel Config
@@ -31,4 +31,16 @@ cells:
         - {color: "green", level: 0}
         - {color: "orange", level: 500}
         - {color: "red", level: 1000}
-    link: *grafana-home
+    #link: *grafana-home
+  remitos_middleware:
+    dataRef: "middleware"
+    label:
+      separator: ""
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "orange", level: 500}
+        - {color: "red", level: 1000}
